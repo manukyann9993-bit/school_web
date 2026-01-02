@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Academy | Student Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">ACADEMY</div>
+        <div class="nav-links">
+            <a href="index.html">Գլխավոր Էջ</a>
+            <a href="index.html#history">Մեր Պատմություն</a>
+            <a href="index.html#professions">Հոսքեր</a>
+            <a href="projects.html" class="active"
+                style="color: var(--primary); border-bottom: 2px solid var(--accent);">Նախագծեր</a>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 180px;">
+        <div class="section-head">
+            <h2 class="section-title">ՆԱԽԱԳԾԵՐ</h2>
+            <p style="color: var(--text-muted); margin-top: 1rem;">Գուրգեն Մարգարյանի Անվան 94 Ավագ Դպրոցի Նախագծերը։
+            </p>
+        </div>
+        <div id="projects-grid" class="grid">
+            <!-- Projects Injected by projects.js -->
+        </div>
+    </section>
+
+    <!-- Global Interaction Overlay -->
+    <div id="global-overlay" class="overlay">
+        <div id="modal-container" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
+            <!-- Content Injected Here -->
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+</body>
+
+</html>

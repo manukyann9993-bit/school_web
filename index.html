@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Գուրգեն Մարգարյանի Անվան 94 Ավագ Դպրոց</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Գուրգեն Մարգարյանի Անվան 94 Ավագ Դպրոց</div>
+        <div class="nav-links">
+            <a href="#home">Գլխավոր Էջ</a>
+            <a href="#history">Դպրոցի Պատմություն</a>
+            <a href="#professions">Հոսքեր</a>
+            <a href="projects.html">Նախագծեր</a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="section-label">Հիմնադրվել է 1968 թ.</span>
+            <h1>Կրթություն <br>Ապագայի Համար:</h1>
+            <p>Մեր պատմական արմատներից մինչև ժամանակակից լաբորատորիաներ, մենք տրամադրում ենք նորարար միջավայր
+                առաջնորդների և ստեղծագործողների հաջորդ սերնդի համար:</p>
+            <a href="projects.html" class="btn-primary"
+                style="position: relative; top: 0; right: 0; font-size: 0.9rem; text-decoration: none; display: inline-block;">ՈՒՍՈՒՄՆԱՍԻՐԵԼ
+                ՆԱԽԱԳԾԵՐԸ</a>
+        </div>
+        <div class="hero-img-container">
+            <img src="94dproc.jpg" alt="Դպրոցի Շենքը" class="hero-image">
+        </div>
+    </header>
+
+    <section id="history" class="history-section">
+        <div class="history-img-container">
+            <img src="school_history.png" alt="Դպրոցի Պատմությունը" style="width: 100%; display: block;">
+        </div>
+        <div class="history-text">
+            <span class="section-label">Մեր Ժառանգությունը</span>
+            <blockquote>"Ակադեմիական Առաջնորդության Տասնամյակներ:"</blockquote>
+            <p>Գուրգեն Մարգարյանի անվան թիվ 94 ավագ դպրոցը տասնամյակներ շարունակ հանդիսանում է կրթական որակի փարոս
+                Աջափնյակ համայնքում: Մենք համատեղում ենք ավանդական արժեքները ժամանակակից տեխնոլոգիաների հետ:</p>
+            <p>Մեր կրթահամալիրը մշտապես զարգանում է՝ աշակերտներին հնարավորություն տալով ուսումնասիրել թե՛ դասական
+                տեսությունները, թե՛ նորագույն գիտական ուղղությունները:</p>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--bg);">
+        <div class="section-head">
+            <span class="section-label">Դպրոցական Կյանք</span>
+            <h2 class="section-title">Միջավայր՝ Մտածելու և Ստեղծելու Համար</h2>
+        </div>
+        <div
+            style="width: 100%; max-width: 1200px; margin: 0 auto; border-radius: 40px; overflow: hidden; box-shadow: var(--shadow);">
+            <img src="campus_life.png" alt="Գրադարան և Ուսումնական Տարածք" style="width: 100%; display: block;">
+        </div>
+    </section>
+
+    <section id="professions" class="section">
+        <div class="section-head">
+            <span class="section-label">Կրթական Ուղիներ</span>
+            <h2 class="section-title">Հոսքեր</h2>
+        </div>
+        <div id="professions-grid" class="grid">
+            <!-- Professions Injected by JS -->
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--surface); text-align: center;">
+        <div class="section-head">
+            <span class="section-label">Ընթացիկ Աշխատանք</span>
+            <h2 class="section-title">Նախագծերի Լաբորատորիա</h2>
+            <p style="color: var(--text-muted); margin-top: 1rem; margin-bottom: 2rem;">Բացահայտեք, թե ինչ են ստեղծում
+                մեր աշակերտները այս կիսամյակում:</p>
+            <a href="projects.html" class="btn-primary"
+                style="position: relative; top: 0; right: 0; font-size: 1rem; text-decoration: none; display: inline-block; padding: 15px 40px;">ԴԻՏԵԼ
+                ՆԱԽԱԳԾԵՐԻ ԱՐԽԻՎԸ</a>
+        </div>
+    </section>
+
+    <!-- Global Interaction Overlay -->
+    <div id="global-overlay" class="overlay">
+        <div id="modal-container" style="width: 100%; display: flex; justify-content: center; align-items: flex-start;">
+            <!-- Content Injected Here -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
